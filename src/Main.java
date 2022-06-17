@@ -20,6 +20,18 @@ public class Main {
 
             }
 
+        int startComets = 0 ;
+        int endComets = 2120;
+//        for (i = 1822; i <=2122; i = i + 74 ){
+//            System.out.println(i);
+        while (startComets <  endComets){
+            startComets = startComets + 79;
+            if (startComets >1895 && startComets < 2100){
+                System.out.println(startComets);}
+
+
+        }
+
     }
 
 }
